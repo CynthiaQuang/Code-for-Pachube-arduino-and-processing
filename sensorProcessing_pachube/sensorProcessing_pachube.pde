@@ -14,7 +14,7 @@ void setup()
 println(Arduino.list());
 arduino = new Arduino(this, Arduino.list()[0], 57600);
 
-dOut = new DataOut(this, "http://www.pachube.com/api/35206.xml", "u_ulBy5KiTFHCt-dmviIh8n662b4MgqjhOpXMBVY63c"); 
+dOut = new DataOut(this, "http://www.pachube.com/api/35206.xml", "Your_API_Key_HERE"); 
 
 dOut.addData(0,"CapacitiveSensor");
 dOut.addData(1,"timer");
